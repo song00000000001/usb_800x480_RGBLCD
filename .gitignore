@@ -1,0 +1,16 @@
+build/
+managed_components/
+node_modules/
+__pycache__/
+.cache/
+.vscode/
+.devcontainer/
+*.pyc
+*.pyo
+sdkconfig.old
+.jpeg_frames/
+*.mp4
+*.mp3
+*.wav
+dependencies.lock
+package-lock.json

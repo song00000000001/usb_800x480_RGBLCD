@@ -1,0 +1,20 @@
+{
+  "name": "esp32-screen-stream",
+  "version": "1.0.0",
+  "description": "ESP32-P4 USB Screen Streaming via Portal ScreenCast",
+  "main": "screen_stream_portal.ts",
+  "scripts": {
+    "start": "npx ts-node screen_stream_portal.ts",
+    "start:window": "npx ts-node screen_stream_portal.ts -w",
+    "screenshot": "npx ts-node screen_stream_portal.ts -s"
+  },
+  "dependencies": {
+    "usb": "^2.17.0",
+    "dbus": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
