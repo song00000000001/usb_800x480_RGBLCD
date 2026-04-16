@@ -1,16 +1,52 @@
+# ESP-IDF build output
 build/
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults
+sdkconfig.*.old
+
+# Partition tables
+partitions-*.csv
+
+# Bootloader build
+build/bootloader/
+
+# Flash files
+*.bin
+*.elf
+*.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Managed components (optional - can be tracked via idf_component.yml)
 managed_components/
-node_modules/
+
+# Python
 __pycache__/
 .cache/
-.vscode/
-.devcontainer/
 *.pyc
 *.pyo
-sdkconfig.old
+venv/
+.env
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Media files
 .jpeg_frames/
 *.mp4
 *.mp3
 *.wav
+
+# Lock files
 dependencies.lock
-package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
