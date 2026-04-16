@@ -49,7 +49,7 @@ void app_main(void)
     myiic_init();           /* IIC初始化 */
     es8388_init();          /* es8388初始化 */
     myi2s_init();           /* I2S初始化 */
-    xl9555_init();          /* XL9555初始化 */
+    // xl9555_init();          /* XL9555初始化 */
     app_usb_init();         /* USB初始化 */
     app_lcd_init();         /* LCD初始化 */
 }
