@@ -40,6 +40,8 @@ package-lock.json
 
 # Media files
 .jpeg_frames/
+jpeg_frames/
+*.jpg
 *.mp4
 *.mp3
 *.wav
